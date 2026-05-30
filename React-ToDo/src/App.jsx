@@ -22,7 +22,7 @@ function App() {
             className='form-control w-25'
             type="text"
             placeholder='Enter Task'
-            onChange={(data) => setInput(data.target.value)}
+            onChange={(event) => setInput(event.target.value)}
           />
           <button className=' btn btn-primary' onClick={addTask}>Add Task</button>
         </div>
